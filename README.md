@@ -1,12 +1,39 @@
-# React + Vite
+React Cart App
+A simple React application that showcases a products page and a cart page with quantity management, a free gift offer for orders above ₹1000, and a dynamic progress bar.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Features
+.Product listing with images, prices, and "Add to Cart" functionality
 
-Currently, two official plugins are available:
+.Increase or decrease product quantities
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+.Cart page with:
 
-## Expanding the ESLint configuration
+.Free gift notification for purchases above ₹1000
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+.Progress bar showing amount remaining for free gift
+
+.Cart item updates and removal
+
+Tech Stack
+React with Hooks
+
+React Router DOM for navigation
+
+Context API for cart state management
+
+Tailwind CSS for styling 
+
+Local Setup Instructions
+Follow the steps below to run the project locally on your machine:
+
+1. Clone the repository
+   git clone https://github.com/akhil0778/shopping-cart.git
+2.  Navigate to the project folder
+cd shopping-cart
+
+3. Install dependencies
+npm install
+5. Start the development server
+npm run dev
+This will run the app in development mode.
+Open http://localhost:5173/ to view it in your browser.
